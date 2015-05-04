@@ -1,0 +1,51 @@
+state,name,party,length,start_data,end_date,num_terms,allow_terms,lg_same_ticket,inline,birth_date,birth_place
+Alabama,Robert Bentley ,R,4,1/2011,1/2015,. . .,2-4,No,LG,2/3/1943,AL
+Alaska,Sean Parnell ,R,4,7/2009 (b),12/2014,1(b),2-4,Yes,LG,11/19/1962,CA
+Arizona,Jan Brewer ,R,4,1/2009 (c),1/2015,1 (c),2-4,(d),SS,9/26/1944,CA
+Arkansas,Mike Beebe ,D,4,1/2007,1/2015,1,2A,No,LG,12/28/1946,AR
+California,"Edmund Gerald ""Jerry"" Brown ",D,4,1/1975 (e),1/2015,2 (e),2A (e),No,LG,4/7/1938,CA
+Colorado,John Hickenlooper ,D,4,1/2011,1/2015,. . .,2-4,Yes,LG,2/7/1952,PA
+Connecticut,Dan Malloy ,D,4,1/2011,1/2015,. . .,. . . ,Yes,LG,7/21/1955,CT
+Delaware,Jack Markell ,D,4,1/2009,1/2013,. . .,2A,No,LG,11/26/1960,DE
+Florida,Rick Scott ,R,4,1/2011,1/2015,. . .,2-4,Yes,LG,12/2/1952,IL
+Georgia,Nathan Deal ,R,4,1/2011,1/2015,", , ,",2-4,No,LG,8/25/1942,GA
+Hawaii,Neil Abercrombie ,D,4,12/2010,12/2014,. . .,2-4,Yes,LG,6/26/1938,NY
+Idaho,"C.L. ""Butch"" Otter ",R,4,1/2007,1/2015,1,. . . ,No,LG,5/3/1942,ID
+Illinois,Patrick Quinn ,D,4,1/2009 (f) ,1/2015,1(f),. . . ,Yes,LG,12/16/1948,IL
+Indiana,Mike Pence ,R,4,1/2013,1/2017,. . .,2-12,Yes,LG,6/7/1959,IN
+Iowa,Terry Branstad ,R,4,1/1983 (g) ,1/2015,4 (g) ,. . . ,Yes,LG,11/17/1946,IA
+Kansas,Sam Brownback ,R,4,1/2011,1/2015,. . .,2-4,Yes,LG,9/12/1956,KS
+Kentucky,Steven L. Beshear ,D,4,12/2007,12/2015,1,2-4,Yes,LG,9/21/1944,KY
+Louisiana,Bobby Jindal ,R,4,1/2008,1/2016,1,2-4,No,LG,6/10/1971,LA
+Maine,Paul LePage ,R,4,1/2011,1/2015,. . . ,2-4,(d),PS,10/9/1948,ME
+Maryland,Martin O'Malley ,D,4,1/2007,1/2015,1,2-4,Yes,LG,1/18/1963,MD
+Massachusetts,Deval L. Patrick ,D,4,1/2007,1/2015,1,. . . ,Yes,LG ,7/31/1956,IL
+Michigan,Rick Snyder ,R,4,1/2011,1/2015,. . .,2A,Yes,LG,8/19/1958,MI
+Minnesota,Mark Dayton ,D,4,1/2011,1/2015,. . .,. . . ,Yes,LG,1/26/1947,MN
+Mississippi,Phil Bryant ,R,4,1/2012,1/2016,. . .,2A,Yes,LG,12/9/1954,MS
+Missouri,Jay Nixon ,D,4,1/2009,1/2017,1,2A,No,LG,2/13/1956,MO
+Montana,Steve Bullock ,D,4,1/2013,1/2017,. . .,2-16,Yes,LG,4/11/1966,MT
+Nebraska,Dave Heineman ,R,4,1/2005 (h) ,1/2015,1  (h) ,2-4,Yes,LG,5/12/1948,NE
+Nevada,Brian Sandoval ,R,4,1/2011,1/2015,. . .,2A,No,LG,8/5/1963,CA
+New Hampshire,Maggie Hassan ,D,2,1/2013,1/2017,. . .,. . . ,(d),PS,2/27/1958,MA
+New Jersey,Christopher J. Christie ,R,4,1/2010,1/2014,. . .,2-4,Yes,LG,9/6/1962,NJ
+New Mexico,Susana Martinez ,R,4,1/2011,1/2015,. . .,2-4,Yes,LG,7/14/1959,TX
+New York,Andrew Cuomo,D,4,1/2011,1/2015,. . .,. . . ,Yes,LG ,12/6/1957,NY
+North Carolina,Pat McCrory ,R,4,1/2013,1/2017,. . .,2-4,No,LG,10/17/1956,VA
+North Dakota,Jack Dalrymple ,R,4,12/2010 (i) ,12/2016,1,. . . ,Yes,LG,10/16/1948,MN
+Ohio,John Kasich ,R,4,1/2011,1/2015,. . .,2-4,Yes,LG,5/13/1952,PA
+Oklahoma,Mary Fallin ,R,4,1/2011,1/2015,. . .,2-A,No,LG,12/9/1954,MO
+Oregon,John Kitzhaber ,D,4,1/1995 (j) ,1/2015,2,2-12, (d),SS,3/5/1947,WA
+Pennsylvania,Tom Corbett ,R,4,1/2011,1/2015,. . . ,2-4,Yes,LG,6/17/1949,PA
+Rhode Island,Lincoln Chafee ,I,4,1/2011,1/2015,. . .,2-4,No,LG,3/26/1953,RI
+South Carolina,Nikki Haley ,R,4,1/2011,1/2015,. . .,2-4,No,LG,1/20/1972,SC
+South Dakota,Dennis Daugaard ,R,4,1/2011,1/2015,. . .,2-4,Yes,LG,6/11/1953,SD
+Tennessee,Bill Haslam ,R,4,1/2011,1/2015,. . . ,2-4,No,        SpS (k) ,8/23/1952,TN
+Texas,Rick Perry ,R,4,12/2000 (l),1/2015,3 (l),. . . ,No,LG,3/4/1950,TX
+Utah,Gary Herbert ,R,4,8/2009 (m) ,1/2017 (m) ,2,. . . ,Yes,LG,5/7/1947,UT
+Vermont,Peter Shumlin ,D,2,1/2011,1/2015,1,. . . ,No,LG,3/24/1956,VT
+Virginia,Robert McDonnell ,R,4,1/2010,1/2014,. . .,1-4 ,No,LG,6/15/1954,PA
+Washington,Jay Inslee ,D,4,1/2013,1/2017,. . .,. . . ,No,LG,2/9/1951,WA
+West Virginia,Earl Ray Tomblin ,D,4,11/2010 (n) ,1/2017,1,2-4,(d),PS (k) ,3/15/1952,WV
+Wisconsin,Scott Walker ,R,4,1/2011,1/2015,. . .,. . . ,Yes,LG,11/2/1967,CO
+Wyoming,Matt Mead ,R,4,1/2011,1/2015,. . . ,2-16,(d),SS,3/11/1962,WY

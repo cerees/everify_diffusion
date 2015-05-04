@@ -1,0 +1,51 @@
+state,name,party,length,start_data,end_date,num_terms,allow_terms,lg_same_ticket,inline,birth_date,birth_place
+Alabama,Bob Riley ,R,4,1/03,1/07,. . .,2 (d),No,LG,10/3/44,AL
+Alaska,Frank H. Murkowski ,R,4,12/02,12/06,. . .,2,Yes,LG,3/28/33,WA
+Arizona,Janet Napolitano ,D,4,1/03,1/07,. . .,2,(k),SS,11/29/57,NY
+Arkansas,Mike Huckabee ,R,4,7/96 (b),1/07,      2 (b),2,No,LG,8/24/55,AR
+California,Arnold Schwarzenegger ,R,4,11/03 (c),1/07,. . .,2,No,LG,7/30/47,Aus.
+Colorado,Bill Owens ,R,4,1/99,1/07,1,2,Yes,LG,10/22/50,TX
+Connecticut,M. Jodi Rell ,R,4,7/04 (o),1/07,. . .,. . .,Yes,LG,6/16/46,VA
+Delaware,Ruth Ann Minner ,D,4,1/01,1/09,1,2,No,LG,1/17/35,DE
+Florida,Jeb Bush ,R,4,1/99,1/07,1,2 (d),Yes,LG,2/11/53,TX
+Georgia,Sonny Perdue ,R,4,1/03,1/07,. . .,2,No,LG,12/20/46,GA
+Hawaii,Linda Lingle ,R,4,12/02,12/06,. . .,2,Yes,LG,6/4/53,MO
+Idaho,James E.  Risch ,R,4,5/06 (q),1/07,. . .,. . . ,No,LG,5/3/43,WI
+Illinois,Rod R. Blagojevich ,D,4,1/03,1/07,. . .,. . .,Yes,LG,12/10/56,IL
+Indiana,Mitch Daniels ,R,4,1/05,1/09,. . .,2 (f),Yes,LG,4/7/49,PA
+Iowa,Thomas J. Vilsack ,D,4,1/99,1/07,1,. . .,Yes,LG,12/13/50,PA
+Kansas,Kathleen Sebelius ,D,4,1/03,1/07,. . .,2,Yes,LG,5/15/48,OH
+Kentucky,Ernie Fletcher ,R,4,12/03,12/07,. . .,2,Yes,LG,11/12/52,KY
+Louisiana,Kathleen Babineaux Blanco ,D,4,1/04,1/08,. . .,2,No,LG,12/15/42,LA
+Maine,John Baldacci ,D,4,1/03,1/07,. . .,2,(k),PS,1/30/55,ME
+Maryland,Robert L. Ehrlich Jr. ,R,4,1/03,1/07,. . .,2,Yes,LG,11/25/57,MD
+Massachusetts,Mitt Romney ,R,4,1/03,1/07,. . .,. . .,Yes,LG ,3/12/47,MI
+Michigan,Jennifer Granholm ,D,4,1/03,1/07,. . .,2,Yes,LG,2/5/59,BC
+Minnesota,Tim Pawlenty ,R,4,1/03,1/07,. . .,. . .,Yes,LG,11/27/60,MN
+Mississippi,Haley Barbour ,R,4,1/04,1/08,. . .,2,No,LG,10/22/47,MS
+Missouri,Matt Blunt ,R,4,1/05,1/09,. . .,2,No,LG,11/20/70,MO
+Montana,Brian Schweitzer ,D,4,1/05,1/09,. . ., 2 (g),Yes,LG,9/4/55,MT
+Nebraska,Dave Heineman ,R,4,1/05 (e),1/07,. . .,2,Yes,LG,5/12/48,NE
+Nevada,Kenny Guinn ,R,4,1/99,1/07,1,2,No,LG,8/24/36,AR
+New Hampshire,John Lynch ,D,2,1/05,1/07,. . .,. . .,(k),PS,11/25/52,MA
+New Jersey,Jon Corzine ,D,4,1/06,1/10,. . . ,2,(i),(i),1/1/47,IL
+New Mexico,Bill Richardson ,D,4,1/03,1/07,. . .,2,Yes,LG,11/15/47,CA
+New York,George E. Pataki ,R,4,1/95,1/07,2,. . .,Yes,LG,6/24/45,NY
+North Carolina,Michael F. Easley ,D,4,1/01,1/09,1,2 (f),No,LG,3/23/50,NC
+North Dakota,John Hoeven ,R,4,12/00,12/08,1,. . .,Yes,LG,3/13/57,ND
+Ohio,Bob Taft ,R,4,1/99,1/07,1,2 (f),Yes,LG,1/8/42,OH
+Oklahoma,Brad Henry ,D,4,1/03,1/07,. . .,2,No,LG,6/10/63,OK
+Oregon,Ted Kulongoski ,D,4,1/03,1/07,. . .,2,(k),SS,11/5/40,MO
+Pennsylvania,Edward G. Rendell ,D,4,1/03,1/07,. . .,2,Yes,LG,1/5/44,NY
+Rhode Island,Don Carcieri ,R,4,1/03,1/07,. . .,2,No,LG,12/16/42,RI
+South Carolina,Mark Sanford ,R,4,1/03,1/07,. . .,2,No,LG,5/28/60,FL
+South Dakota,Mike Rounds ,R,4,1/03,1/07,. . .,2,Yes,LG,10/24/54,SD
+Tennessee,Phil Bredesen ,D,4,1/03,1/07,. . .,2,No,        SpS (l),11/21/43,NJ
+Texas,Rick Perry ,R,4,12/00 (h),1/07,1,. . .,No,LG,3/4/50,TX
+Utah,Jon M. Huntsman Jr. ,R,4,1/05,1/09,. . .,. . .,Yes,LG,3/26/60,CA
+Vermont,Jim Douglas ,R,2,1/03,1/07,1,. . .,No,LG,6/21/51,MA
+Virginia,Tim Kaine ,D,4,1/06,1/10,. . .,(j),No,LG,2/26/58,MN
+Washington,Christine Gregoire ,D,4,1/05,1/09,. . .,. . .,No,LG,3/24/57,WA
+West Virginia,Joe Manchin III ,D,4,1/05,1/09, . . .,2,(k),PS,8/24/47,WV
+Wisconsin,Jim Doyle ,D,4,1/03,1/07,. . . ,. . .,Yes,LG,11/23/45,D.C.
+Wyoming,Dave Freudenthal ,D,4,1/03,1/07,. . .,2 (g),(k),SS,10/12/50,WY

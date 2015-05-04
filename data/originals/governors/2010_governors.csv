@@ -1,0 +1,51 @@
+state,name,party,length,start_data,end_date,num_terms,allow_terms,lg_same_ticket,inline,birth_date,birth_place
+Alabama,Bob Riley ,R,4,1/2003,1/2011,1,2,No,LG,10/3/1944,AL
+Alaska,Sean Parnell ,R,4,7/2009 (b),12/2010,. . .,2,Yes,LG,11/19/1962,CA
+Arizona,Jan Brewer ,R,4,1/2009 (c),1/2011,. . .,2,(d),SS,9/26/1944,CA
+Arkansas,Mike Beebe ,D,4,1/2007,1/2011,. . .,2,No,LG,12/28/1946,AR
+California,Arnold Schwarzenegger ,R,4,11/2003 (e),1/2011,1 (e),2,No,LG,7/30/1947,Aus.
+Colorado,Bill Ritter ,D,4,1/2007,1/2011,. . .,2,Yes,LG,9/6/1956,CO
+Connecticut,M. Jodi Rell ,R,4,7/2004 (f),1/2011,1 (f),. . .,Yes,LG,6/16/1946,VA
+Delaware,Jack Markell ,D,4,1/2009,1/2013,. . .,2,No,LG,11/26/1960,DE
+Florida,Charlie Crist ,R,4,1/2007,1/2011,. . .,2,Yes,LG,7/24/1956,PA
+Georgia,Sonny Perdue ,R,4,1/2003,1/2011,1,2,No,LG,12/20/1946,GA
+Hawaii,Linda Lingle ,R,4,12/2002,12/2010,1,2,Yes,LG,6/4/1953,MO
+Idaho,"C.L. ""Butch"" Otter ",R,4,1/2007,1/2011,. . .,. . . ,No,LG,5/3/1942,ID
+Illinois,Patrick Quinn ,D,4,1/2009 (g),1/2011,. . .,. . .,Yes,LG,12/16/1948,IL
+Indiana,Mitch Daniels ,R,4,1/2005,1/2013,1,2 (h),Yes,LG,4/7/1949,PA
+Iowa,Chet Culver ,D,4,1/2007,1/2011,. . .,. . .,Yes,LG,1/25/1966,DC
+Kansas,Mark Parkinson ,D,4,4/2009 (i),1/2011,. . .,2,Yes,LG,6/24/1957,KS
+Kentucky,Steven L. Beshear ,D,4,12/2007,12/2011,. . .,2,Yes,LG,9/21/1944,KY
+Louisiana,Bobby Jindal ,R,4,1/2008,1/2012,. . .,2,No,LG,6/10/1971,LA
+Maine,John E. Baldacci ,D,4,1/2003,1/2011,1,2,(d),PS,1/30/1955,ME
+Maryland,Martin O'Malley ,D,4,1/2007,1/2011,. . .,2,Yes,LG,1/18/1963,MD
+Massachusetts,Deval L. Patrick ,D,4,1/2007,1/2011,. . .,. . .,Yes,LG ,7/31/1956,IL
+Michigan,Jennifer Granholm ,D,4,1/2003,1/2011,1,2 (j),Yes,LG,2/5/1959,BC
+Minnesota,Tim Pawlenty ,R,4,1/2003,1/2011,1,. . .,Yes,LG,11/27/1960,MN
+Mississippi,Haley Barbour ,R,4,1/2004,1/2012,1,2,Yes,LG,10/22/1947,MS
+Missouri,Jay Nixon ,D,4,1/2009,1/2013,. . .,2,No,LG,2/13/1956,MO
+Montana,Brian Schweitzer ,D,4,1/2005,1/2013,1, 2 (k),Yes,LG,9/4/1955,MT
+Nebraska,Dave Heineman ,R,4,1/2005 (l),1/2011,1 (l),2 (h),Yes,LG,5/12/1948,NE
+Nevada,James A. Gibbons ,R,4,1/2007,1/2011,. . .,2,No,LG,12/16/1944,NV
+New Hampshire,John Lynch ,D,2,1/2005,1/2011,2,. . .,(d),PS,11/25/1952,MA
+New Jersey,Christopher J. Christie ,R,4,1/2010,1/2014,. . .,2,Yes,LG,9/6/1962,NJ
+New Mexico,Bill Richardson ,D,4,1/2003,1/2011,1,2,Yes,LG,11/15/1947,CA
+New York,David A. Paterson ,D,4,3/2008 (m),1/2011,. . .,. . .,Yes,LG ,5/20/1954,NY
+North Carolina,Beverly Perdue ,D,4,1/2009,1/2013,. . .,2,No,LG,1/14/1947,VA
+North Dakota,John Hoeven ,R,4,12/2000,12/2012,2,. . .,Yes,LG,3/13/1957,ND
+Ohio,Ted Strickland ,D,4,1/2007,1/2011,. . .,2 (h),Yes,LG,8/4/1941,OH
+Oklahoma,Brad Henry ,D,4,1/2003,1/2011,1,2,No,LG,6/10/1963,OK
+Oregon,Ted Kulongoski ,D,4,1/2003,1/2011,1,2, (d),SS,11/5/1940,MO
+Pennsylvania,Edward G. Rendell ,D,4,1/2003,1/2011,1,2,Yes,LG,1/5/1944,NY
+Rhode Island,Don Carcieri ,R,4,1/2003,1/2011,1,2,No,LG,12/16/1942,RI
+South Carolina,Mark Sanford ,R,4,1/2003,1/2011,1,2,No,LG,5/28/1960,FL
+South Dakota,Mike Rounds ,R,4,1/2003,1/2011,1,2,Yes,LG,10/24/1954,SD
+Tennessee,Phil Bredesen ,D,4,1/2003,1/2011,1,2,No,        SpS (n),11/21/1943,NJ
+Texas,Rick Perry ,R,4,12/2000 (o),1/2011,2,. . .,No,LG,3/4/1950,TX
+Utah,Gary Herbert ,R,4,8/2009,1/2011 (p),. . .,. . .,Yes,LG,5/7/1947,UT
+Vermont,Jim Douglas ,R,2,1/2003,1/2011,3,. . .,No,LG,6/21/1951,MA
+Virginia,Robert McDonnell ,R,4,1/2010,1/2014,. . .,(q),No,LG,6/15/1954,PA
+Washington,Christine Gregoire ,D,4,1/2005,1/2013,1,. . .,No,LG,3/24/1957,WA
+West Virginia,Joe Manchin III ,D,4,1/2005,1/2013,1,2,(d),PS (n),8/24/1947,WV
+Wisconsin,Jim Doyle ,D,4,1/2003,1/2011,1,. . .,Yes,LG,11/23/1945,DC
+Wyoming,Dave Freudenthal ,D,4,1/2003,1/2011,1,2,(d),SS,10/12/1950,WY
