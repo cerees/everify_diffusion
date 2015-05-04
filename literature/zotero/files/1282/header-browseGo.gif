@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+@import url('public/ezstylenu.css');
+</style>
+
+<link type="text/css" rel="stylesheet" media="all" href="https://library.albany.edu/sites/all/themes/ualibrary4/ualibrary4.css">
+
+<script type="text/javascript" src="https://library.albany.edu/libdru/scripts/jquery.js"></script>
+<script type="text/javascript"> var $jquary = jQuery.noConflict(); </script>
+<script src="https://library.albany.edu/sites/all/themes/ualibrary4/scripts/ualibraryv4.js" type="text/javascript"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Proxy Authorization Required | University Libraries</title>
+</head>
+
+<body>
+
+<!-- START BANNER AREA -->
+<div id="ualib_bannerv4" style="padding-top: 6px;">
+    	<div id="ualib_bannerv4_in">
+        	
+            <div id="ualib_bannerv4_left">
+            	<img border="0" title="University Libraries." usemap="#Map" alt="University Libraries." src="http://library.albany.edu/sites/all/themes/ualibrary4/images/banners/ualib_bannerv4_bk.jpg">
+                <map id="Map" name="Map">
+                  <area href="http://www.albany.edu/" coords="8,7,70,71" shape="rect">
+                  <area href="http://library.albany.edu/" coords="76,12,502,46" shape="rect">
+                  <area href="http://www.albany.edu/" coords="75,51,499,74" shape="rect">
+                </map>
+          </div>
+            
+            <div id="ualib_bannerv4_right">
+            	
+                <!-- TOP LINKS -->
+				<div>
+                	<ul id="ualib_bannerv4_toplinks">
+                    	<li><a href="http://www.albany.edu/its/?source=home">IT Services</a></li>
+                        <li>|</li>
+                   		<li><a href="http://www.albany.edu/calendars.php">Calendars &amp; Schedules</a></li>
+                        <li>|</li>
+                    	<li><a href="http://www.albany.edu/">UAlbany Home</a></li>
+                    </ul>
+                </div>
+                
+                <!-- ASK US -->
+                <div id="ualib_bannerv4_right_in1">
+                	<img border="0" title="ASK US!" id="ualib_bannerv4_askusimg" usemap="#ualib_bannerv4_askusimgMap" name="ualib_bannerv4_askusimg" alt="ASK US!" src="http://library.albany.edu/sites/all/themes/ualibrary4/images/banners/ualib_askusv4.png">
+                    <map id="ualib_bannerv4_askusimgMap" name="ualib_bannerv4_askusimgMap">
+                      <area href="http://library.albany.edu/help/im" coords="31,5,133,28" shape="rect">
+                      <area href="http://library.albany.edu/help/im" coords="9,36,53,51" shape="rect">
+                      <area href="http://library.albany.edu/help/email" coords="66,36,101,51" shape="rect">
+                      <area href="http://library.albany.edu/help/phone" coords="115,36,152,51" shape="rect">
+                    </map>
+                </div>
+                
+              <!-- SEARCH -->  
+              <div id="ualib_bannerv4_right_in2">    
+                    
+                <form method="GET" action="http://libsearch.albany.edu/search">
+                    
+                    <div class="ualib_bannerv4_formboxes1">
+                        <input type="text" name="q" id="sitesearchboxtop" value="Search Our Website" style="width: 210px; padding: 4px;">
+                    </div>
+                    
+                    <div class="ualib_bannerv4_formboxes2">
+                        <!--<input type="submit" value="Go" name="btnG" id="sitesearch_inputbutton" />-->
+                    </div>
+                    
+                    <input type="hidden" name="site" value="pubweb_collection">
+                    <input type="hidden" name="client" value="pubweb_frontend">
+                    <input type="hidden" name="output" value="xml_no_dtd">
+                    <input type="hidden" name="proxystylesheet" value="pubweb_frontend">  
+                    <input type="hidden" name="proxyreload" value="1">  
+                    <input type="hidden" name="numgm" value="5">  
+                    <input type="hidden" name="filter" value="0">  
+                </form>
+              </div>
+               
+            	            
+            </div>
+            
+    	</div>
+    </div>
+<!-- END BANNER -->   
+
+<!-- START NAVIGATION -->
+<div id="navigation_menu">
+         <div class="navigation_container" style="width: 190px;">
+            <ul id="libnav">
+               <li class="nav-topli"><a id="ual_libraries" href="http://library.albany.edu/" style="border-right: 1px solid #7a639a; width: 190px;">UA Libraries</a><ul style=" width: 200px;">
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/dewey/">Dewey Library</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/science/">Science Library</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/archive/">Special Collections and Archives</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/ulib/">University Library</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <div class="navigation_container" style="width: 190px;">
+            <ul id="libnav">
+               <li class="nav-topli"><a id="ual_contact" href="http://library.albany.edu/help/im/" style="border-right: 1px solid #7a639a; width: 190px;">Contact Us</a><ul style=" width: 200px;">
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/departmental/">Departmental directory</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/about/directions/">Directions and maps</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/directory">Faculty / staff directory</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/help/phone/">Key Contacts</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <div class="navigation_container" style="width: 190px;">
+            <ul id="libnav">
+               <li class="nav-topli"><a id="ual_research" href="http://library.albany.edu/research/" style="border-right: 1px solid #7a639a; width: 190px;">Research Assistance</a><ul style=" width: 280px;">
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/help/im/">Instant message / text / email us</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/usered/">Instruction and tutorials</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/subject/subject.html">Subject specialists</a></li>
+                     <li class="level1 nav-subli"><a href="http://libguides.library.albany.edu/aecontent.php?pid=72016">Personal assistance with searching (PAWS)</a></li>
+                     <li class="level1 nav-subli"><a href="http://libguides.library.albany.edu/citesearch">Cited reference search</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/honorscoll/index">Honors college research assistance</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <div class="navigation_container" style="width: 190px;">
+            <ul id="libnav">
+               <li class="nav-topli" id="dd_services"><a id="ual_services" href="http://library.albany.edu/services/" style="border-right: 1px solid #7a639a; width: 190px;">Library Services</a><ul style=" width: 200px;">
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/circ/">Circulation services</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/help/getting_started/">FAQ</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/services/groupstudy">Group study / room reservations</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/infocommons/">Information Commons</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/imc/">Interactive Media Center</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/services/sunycard/">Photocopying and printing</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/forms/">Forms</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/services/technology/">Library technology services</a></li>
+                     <li style="position: relative; z-index: 999999;" class="level1 nav-subli"><a href="http://library.albany.edu/services">Services for:  »  	</a><ul>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/services/alumni/">Alumni</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://libguides.library.albany.edu/faculty">Faculty</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/gradstudents">Graduate Students</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/undergraduates">Undergraduate Students</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/spwd/">People with disabilities</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/services/distance/">Online/distance learners</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <div class="navigation_container" style="width: 190px; ">
+            <ul id="libnav">
+               <li class="nav-topli" id="dd_about"><a id="ual_about" href="http://library.albany.edu/about/" style="border-right: 0px none #7a639a; width: 190px; ">About the Libraries</a><ul style=" width: 200px; margin-left: 0;">
+                     <li class="level1 nav-subli"><a href="/about/welcome.html">Welcome to the Libraries</a></li>
+                     <li style="position: relative; z-index: 999999;" class="level1 nav-subli"><a href="#">‹‹ Overview of the Libraries 	</a><ul>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/about/history.html">History of UAlbany Libraries</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/about/mission/">Mission and vision</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/about/administration">Library administration</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/about/organization/charts/university_library.pdf">Library organizational chart</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/about/figures">Facts and figures</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/about/surveys">Surveys and Studies</a></li>
+                           <li style="position: relative; z-index: 999999;" class="level2 nav-subli"><a href="http://library.albany.edu/about/collections">University Libraries Collections</a></li>
+                        </ul>
+                     </li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/jobs/">Employment opportunities</a></li>
+                     <li class="level1 nav-subli"><a href="http://library.albany.edu/about/giving/">Giving to the Libraries</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+<!-- END NAVIGATION -->
+ 
+    
+
+<div class="ezbody">
+
+<div class="breadcrumb">
+	<a href="http://library.albany.edu/">University Libraries Home</a>
+    <img src="https://library.albany.edu/sites/all/themes/ualibrary/images/icons/breadright.gif" alt="">
+    <span style="font-size: 11px;">Authorization Required</span>
+</div>
+
+<!-- CONTAINER FOR PROXY LOGIN -->
+<div id="prox_login_con">
+
+<!-- START LEFT SIDE -->
+<div id="prox_leftside">
+<h2>Authorization Required<br />
+<img alt="University at Albany users only" src="https://library.albany.edu/libdru/images/databases/ua.gif" width="23" height="15" />&nbsp;University at Albany Users Only</h2>
+
+<h4>Please enter your NetID and Unix cluster Password</h4>
+
+<div class="form">
+<form name="login" action="https://login.libproxy.albany.edu/login" method="post">
+<input type="hidden" name="url" value="http://spa.sagepub.com/publisher/icons/header-browseGo.gif">
+<input type="hidden" name="auth" value="ldap">
+<table border="0" cellpadding="0" cellspacing="2" style="margin-left: 50px;">
+
+<tr>
+<td>NetID:</td>
+<td><input type="text" name="user" style="width: 150px;"></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" name="pass" style="width: 150px;"></td>
+<td><input type="submit" value="Submit" style=" margin-left: 10px;"></td>
+</tr>
+
+</table>
+</form>
+</div>
+
+<!-- END LEFT SIDE -->
+</div>
+
+
+
+
+<!-- RIGHT SIDE -->
+<!-- END PROX LOG CON -->
+</div>
+<div style="clear: both;">
+<p style="padding-top: 18px;">
+For more troubleshooting information, see <a href="http://library.albany.edu/db/access/">
+Off-Campus Access Instructions for Databases &amp; Online Journals</a>.
+</p>
+</div>
+
+
+</div>
+
+
+<!-- START FOOTER -->
+<div id="ualib_footerv4">
+  		
+        <div id="ualib_footerv4_left">
+            <div id="footer_line1" class="footer_lines">
+              <p><b>University Libraries</b>, University at Albany, SUNY.</p>
+            </div>
+            
+            <div id="footer_line2" class="footer_lines">
+              <p>1400 Washington Avenue, Albany NY 12222 USA. (518) 442-3600.</p>
+            </div>
+            
+            <div id="footer_line3" class="footer_lines">
+              <p>Copyright &copy; 2008-2014 University at Albany. All rights reserved.</p>
+            </div>
+            
+            <div id="page_update" class="footer_lines">
+              <p>Page maintained by Pardavila - Last updated Wednesday, June 4, 2014</p>
+            </div>
+        </div>  
+        
+        <div id="ualib_footerv4_right">
+        	<div id="ftrtoprowlnks">
+            	<ul id="ftrtoprowlnks_row">
+                	<li><a href="http://library.albany.edu/siteindex.html">Site Index</a></li>
+                    <li>|</li>
+                    <li><a href="http://library.albany.edu/text.html">Text Version</a></li>
+                    <li>|</li>
+                    <li><a href="http://library.albany.edu/privacy.html">Privacy Policy</a></li>
+                    <li>|</li>
+                    <li><a href="http://library.albany.edu/comments">Website Comments</a></li>
+                    <li>|</li>
+                    <li><a href="http://library.albany.edu/help/phone">Contact Us</a></li>               
+                </ul>           
+            </div>
+        	<div id="ftrsclicons">
+            	<div id="ftrsclicons_row">
+                	<div><img alt="University Libraries' Mobile Website." title="University Libraries' Mobile Website." src="http://library.albany.edu/sites/all/themes/ualibrary4/images/footers/msite_icon.png" onclick="location.href='http://library.albany.edu/mobile/?nid=proxy'"></div>	
+                    <div><img alt="University Libraries YouTube Page." title="University Libraries'YouTube Page." src="http://library.albany.edu/sites/all/themes/ualibrary4/images/footers/yt_icon.png" onclick="location.href='http://library.albany.edu/youtube?nid=proxy'"></div>
+                   <div> <img title="The University Libraries' Pintrest site!" alt="The University Libraries' Pintrest site!" src="http://library.albany.edu/libdru/images/icons/pintresticon28.png" onclick="location.href='http://library.albany.edu/pinterest?nid=proxy'" style="cursor: pointer;" id="ual_pintrest"></div>
+                    
+                    <div><img alt="University Libraries' Twitter Feed." title="University Libraries' Twitter Feed." src="http://library.albany.edu/sites/all/themes/ualibrary4/images/icons/lib_twitter_icon.png" onclick="location.href='http://library.albany.edu/twitter?nid=proxy'"></div>
+                    
+                    <div><img alt="University Libraries' Facebook Page." title="University Libraries' Facebook Page." src="http://library.albany.edu/sites/all/themes/ualibrary4/images/footers/fb_icon.png" onclick="location.href='http://library.albany.edu/facebook?nid=proxy'"></div>
+                </div>
+            
+            </div>
+        </div>  
+        
+    </div>
+<!-- END FOOTER -->
+
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+﻿(function(){
+var CM8CE = (window.CM8E && CM8E['social_science_humanities.politics_international_relations.spa']) || {};
+var CM8CES = (CM8CE.serialsData && CM8CE.serialsData[1000]) || {};
+if (CM8CE.requestReceived)
+	CM8CE.requestReceived(1000, [], '3563,9,283,1,282,1,280,19,122,4225034032,120,4000000032,118,1,117,225034,116,225,104,7,103,9,43,4,34,6,32,0,', '', 'D');
+
+function CM8MultiDo1() {
+document.write("<SPAN ID='CM8BWE_BBF59E39BF21'>");
+	
+	var bwPlaceHolder = null;
+	if ((typeof(CM8CES) != "undefined") && CM8CES.CM8BWSTF_461865)
+		bwPlaceHolder = CM8CES.CM8BWSTF_461865(document.getElementById("CM8BWE_BBF59E39BF21"));
+
+	if (window.CM8E && CM8E['social_science_humanities.politics_international_relations.spa'])
+			CM8E['social_science_humanities.politics_international_relations.spa'].bannerShowing(1000,document.getElementById("CM8BWE_BBF59E39BF21"),
+					"homepage_rectangle_left",461865,bwPlaceHolder);document.write("<A HREF='http://sage.checkm8.com/adam/em/click/461865/cat=58516/uhook=BBF59E39BF21/criterias=32_0_34_6_43_4_103_9_104_7_116_225_117_225034_118_1_120_4000000032_122_4225034032_280_19_282_1_283_1_3563_9_' target='_blank'><IMG  SRC='http://sagedigital.checkm8.com/data/461865/SAGETrack_300x100.gif' BORDER=0   WIDTH='300' HEIGHT='100'></A>");
+
+document.write("</SPAN><!-- CM8BWE_BBF59E39BF21 -->");
+
+	var placeHoldersForCleanup = (typeof(CM8CE) == 'undefined') ? [] : (CM8CE.placeHolders || []);
+for (var placeHolderIndex = 0; placeHolderIndex < placeHoldersForCleanup.length; placeHolderIndex++) {
+	var placeHolderForCleanup = placeHoldersForCleanup[placeHolderIndex];
+	if (((typeof(CM8CES) == 'undefined') || (placeHolderForCleanup.serial == CM8CES.serial)) && (placeHolderForCleanup.adId == 461865)) {
+		(function(){
+			var origCleanup = placeHolderForCleanup.cleanup;
+			placeHolderForCleanup.cleanup = function () {
+				if (origCleanup)
+					origCleanup.call(this);
+var wrapper = document.getElementById("CM8BWE_BBF59E39BF21");
+			
+			if (wrapper)
+				wrapper.parentNode.removeChild(wrapper);
+			};
+		})();
+		break;
+	};
+};
+
+
+	if ((typeof(CM8CES) != "undefined") && CM8CES.CM8BWADF_461865)
+		CM8CES.CM8BWADF_461865(document.getElementById("CM8BWE_BBF59E39BF21"));
+}
+
+function CM8MultiDo2() {
+document.write("<SPAN ID='CM8BWE_FD3B5F8B2CAC'>");
+	
+	var bwPlaceHolder = null;
+	if ((typeof(CM8CES) != "undefined") && CM8CES.CM8BWSTF_663265)
+		bwPlaceHolder = CM8CES.CM8BWSTF_663265(document.getElementById("CM8BWE_FD3B5F8B2CAC"));
+
+	if (window.CM8E && CM8E['social_science_humanities.politics_international_relations.spa'])
+			CM8E['social_science_humanities.politics_international_relations.spa'].bannerShowing(1000,document.getElementById("CM8BWE_FD3B5F8B2CAC"),
+					"column3_160x40",663265,bwPlaceHolder);document.write("<A HREF='http://sage.checkm8.com/adam/em/click/663265/cat=58516/uhook=FD3B5F8B2CAC/criterias=32_0_34_6_43_4_103_9_104_7_116_225_117_225034_118_1_120_4000000032_122_4225034032_280_19_282_1_283_1_3563_9_' target='_blank'><IMG  SRC='http://sagedigital.checkm8.com/data/663265/RAP_160x140.gif' BORDER=0 ALT='Research & Politics: Rapid open publication of the very best cutting edge political science research' TITLE='Research & Politics: Rapid open publication of the very best cutting edge political science research' WIDTH='160' HEIGHT='140'></A>");
+
+document.write("</SPAN><!-- CM8BWE_FD3B5F8B2CAC -->");
+
+	var placeHoldersForCleanup = (typeof(CM8CE) == 'undefined') ? [] : (CM8CE.placeHolders || []);
+for (var placeHolderIndex = 0; placeHolderIndex < placeHoldersForCleanup.length; placeHolderIndex++) {
+	var placeHolderForCleanup = placeHoldersForCleanup[placeHolderIndex];
+	if (((typeof(CM8CES) == 'undefined') || (placeHolderForCleanup.serial == CM8CES.serial)) && (placeHolderForCleanup.adId == 663265)) {
+		(function(){
+			var origCleanup = placeHolderForCleanup.cleanup;
+			placeHolderForCleanup.cleanup = function () {
+				if (origCleanup)
+					origCleanup.call(this);
+var wrapper = document.getElementById("CM8BWE_FD3B5F8B2CAC");
+			
+			if (wrapper)
+				wrapper.parentNode.removeChild(wrapper);
+			};
+		})();
+		break;
+	};
+};
+
+
+	if ((typeof(CM8CES) != "undefined") && CM8CES.CM8BWADF_663265)
+		CM8CES.CM8BWADF_663265(document.getElementById("CM8BWE_FD3B5F8B2CAC"));
+}
+
+CM8CES.CM8Titles=[
+	['homepage_rectangle_left',8434, 1, 0, [[CM8MultiDo1,461865,'UUU']]],
+	['column3_160x40',8437, 1, 0, [[CM8MultiDo2,663265,'UUU']]]];
+var CM8CheckErrorsAlreadyCalled=false;
+function CM8CheckErrors() {
+	if (CM8CheckErrorsAlreadyCalled)
+		return;
+	CM8CheckErrorsAlreadyCalled=true;
+	var A='';  CM8CE.sumPHsOf1Call();
+	for (var B=0;typeof(CM8CES.CM8Titles[B])!='undefined';B++) {
+		var E=''; var D=CM8CES.CM8Titles[B]; var F=D[4];
+		for (var C=0;typeof(F[C])!='undefined';C++) {
+			if (!F[C].used) {
+				E+=','+F[C][1]+'/'+F[C][2];
+			}
+		}
+		if (D[3]<D[2]) {
+			A+='&F'+D[1]+','+D[2]+','+D[3]+E;
+		}
+	}
+	if (A!='') {
+		CM8CE.report = new Image();
+		CM8CE.report.src='http://sage.checkm8.com/adam/report?58516&'+CM8CE.page+'&'+CM8GetLocation()+'&1425513804&Y&32_0_34_6_43_4_103_9_104_7_116_225_117_225034_118_1_120_4000000032_122_4225034032_280_19_282_1_283_1_3563_9_'+A;
+	}
+}
+if (window.addEventListener)
+	window.addEventListener('load', CM8CheckErrors, false);
+else if(document.addEventListener)
+	document.addEventListener('load', CM8CheckErrors, false);
+else if(window.attachEvent)
+	window.attachEvent('onload', CM8CheckErrors);
+
+})();

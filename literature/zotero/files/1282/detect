@@ -1,0 +1,3 @@
+window.CM8DispatcherApps=window.CM8DispatcherApps||[];
+window.CM8DispatcherApps.push('http://sage.checkm8.com/adam/detected?cat=social_science_humanities.politics_international_relations.spa&page=27831484293712894&serial=1000:1:A&&LOC=http://spa.sagepub.com.libproxy.albany.edu/content/12/2/160&WIDTH=1440&HEIGHT=0&WIDTH_RANGE=WR_E&DATE=20150304&HOUR=19&OS=MAC&JE=0&UL=en&RES=RS18&RESW=1440&RESH=900&ORD=40522867338127&req=fr&&169.226.11.193&~=&');
+document.write("<SCR"+"IPT TYPE='text/javascript' SRC='http://sage.checkm8.com/dispatcher_scripts/browserDataDetect.js?Ver=101'></SCR"+"IPT>");

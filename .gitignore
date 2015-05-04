@@ -1,0 +1,7 @@
+/data/originals
+*.docx
+*.pdf
+*.odt
+*.dta
+*.sav
+.Rproj.user

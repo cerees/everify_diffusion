@@ -1,0 +1,170 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="http://spa.sagepub.com/content/11/4/390">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1532-4400,%201946-1607"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boushey</foaf:surname>
+                        <foaf:givenname>Graeme</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Luedtke</foaf:surname>
+                        <foaf:givenname>Adam</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1266"/>
+        <link:link rdf:resource="#item_1263"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ethnic politics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>federalism</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>immigrants</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>immigration</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Immigrants across the U.S. Federal Laboratory Explaining State-Level Innovation in Immigration Policy</dc:title>
+        <dcterms:abstract>The passage of a restrictive immigration law in Arizona in 2010 rekindled an old debate in the United States on immigration policy and the role of federalism. Despite periodic constitutional controversies, scholars of federalism and U.S. state politics have not adequately explained variation in state-level policy making on immigration. The authors explore pressures leading to state immigration policy innovation and adoption in the United States. The article evaluates factors leading to the introduction and adoption of two types of policies: those dictating the cultural and economic incorporation of immigrants and those attempting to control their flow and settlement. Factors such as fiscal federalism, ethnic contact, and ethnic threat generate incentives for states to pass such laws. The authors compiled a comprehensive data set of state immigration laws from the past decade to explain how factors commonly associated with national immigration policy development—economic conditions, rates of immigration, demographics, party control, and political institutions—influence state-level immigration policy activity.</dcterms:abstract>
+        <bib:pages>390-414</bib:pages>
+        <dc:date>2011-12-01</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://spa.sagepub.com/content/11/4/390</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-03-04 23:54:30</dcterms:dateSubmitted>
+        <z:libraryCatalog>spa.sagepub.com</z:libraryCatalog>
+        <dc:description>00023</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1532-4400,%201946-1607">
+        <dc:title>State Politics &amp; Policy Quarterly</dc:title>
+        <prism:volume>11</prism:volume>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>State Politics &amp; Policy Quarterly</dcterms:alternative>
+        <dc:identifier>DOI 10.1177/1532440011419286</dc:identifier>
+        <dc:identifier>ISSN 1532-4400, 1946-1607</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1266">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1266/Boushey_Luedtke_2011_Immigrants across the U.pdf"/>
+        <dc:title>Boushey_Luedtke_2011_Immigrants across the U.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1263">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1263/390.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2015-03-04 23:54:33</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://spa.sagepub.com/content/11/4/390.abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>utf-8</link:charset>
+    </z:Attachment>
+    <bib:Article rdf:about="http://spa.sagepub.com/content/12/2/160">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>State Politics &amp; Policy Quarterly</dc:title>
+                <prism:volume>12</prism:volume>
+                <prism:number>2</prism:number>
+                <dcterms:alternative>State Politics &amp; Policy Quarterly</dcterms:alternative>
+                <dc:identifier>DOI 10.1177/1532440012442910</dc:identifier>
+                <dc:identifier>ISSN 1532-4400, 1946-1607</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Newman</foaf:surname>
+                        <foaf:givenname>Benjamin J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnston</foaf:surname>
+                        <foaf:givenname>Christopher D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Strickland</foaf:surname>
+                        <foaf:givenname>April A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Citrin</foaf:surname>
+                        <foaf:givenname>Jack</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1279"/>
+        <link:link rdf:resource="#item_1282"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>E-Verify</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>immigration policy</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>state politics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Immigration Crackdown in the American Workplace Explaining Variation in E-Verify Policy Adoption Across the U.S. States</dc:title>
+        <dcterms:abstract>Immigration remains a powerful and recurrent feature of American politics. Of the issues related to immigration, controversy over government policy for controlling illegal immigration occupies a central position in the debate. One increasingly important and prevalent type of control policy that has received little scholarly attention is worksite employment eligibility enforcement, otherwise known as E-Verify Laws. In the present article, we analyze variation in E-Verify policy adoption across the U.S. states, approaching the topic from multiple theoretical perspectives and testing several hypotheses pertaining to policy enactment. Our analysis points to the critical role of proportionate change in a state’s immigrant population, as well as the political activity of immigrant-employing industries, in leading to policy adoption. Despite the use of multiple objective indicators, we fail to find strong evidence supporting the hypothesis that economic distress within a state increases its likelihood of enacting E-Verify legislation. Overall, our analysis contributes to an underdeveloped area of immigration policy research and sheds light on an important contemporary immigration issue, while drawing broader conclusions concerning the factors influencing the emergence of anti-immigration policies more generally.</dcterms:abstract>
+        <bib:pages>160-182</bib:pages>
+        <dc:date>2012-06-01</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://spa.sagepub.com/content/12/2/160</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2015-03-05 00:03:20</dcterms:dateSubmitted>
+        <z:libraryCatalog>spa.sagepub.com.libproxy.albany.edu</z:libraryCatalog>
+        <dc:description>00013</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1279">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1279/Newman et al_2012_Immigration Crackdown in the American Workplace Explaining Variation in.pdf"/>
+        <dc:title>Newman et al_2012_Immigration Crackdown in the American Workplace Explaining Variation in.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_1282">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1282/160.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dcterms:dateSubmitted>2015-03-05 00:03:25</dcterms:dateSubmitted>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://spa.sagepub.com.libproxy.albany.edu/content/12/2/160</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <link:type>text/html</link:type>
+        <link:charset>utf-8</link:charset>
+    </z:Attachment>
+</rdf:RDF>
