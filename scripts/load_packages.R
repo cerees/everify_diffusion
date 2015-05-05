@@ -10,9 +10,9 @@
 options(stringsAsFactors = F)
 options(scipen=999)
 
-#################################
-###LOAD PACKAGES AND FUNCTIONS###
-#################################
+###################
+###LOAD PACKAGES###
+###################
 
 ###PACKAGES###
 if(!require(pacman)){

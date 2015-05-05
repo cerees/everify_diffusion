@@ -85,7 +85,9 @@ gov_party_files<-lapply(gov_party_file_paths, read.csv)
 ###retreived from ESRI###
 us_states<-readOGR("data/originals/us_states", "states")
 
+###################
 ###SAVE OUT DATA###
+###################
 save(everify, acs_files, bls_files, bls_codes, state_legs,
      pres_files, fed_files, gov_party_files,
      gov_elections_files, us_states,

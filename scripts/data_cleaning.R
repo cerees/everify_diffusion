@@ -1,7 +1,12 @@
-########################
-###LOAD ORIGINAL DATA###
-########################
-###SOURCE AND LOAD###
+#--------------#
+################
+###CLEAN DATA###
+################
+#--------------#
+
+############################################
+###SOURCE PACKAGES AND LOAD ORIGINAL DATA###
+############################################
 source("scripts/load_packages.R")
 load("data/loaded_dfs.Rdata")
 
