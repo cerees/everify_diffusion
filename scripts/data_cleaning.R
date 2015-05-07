@@ -540,10 +540,17 @@ acs_urbanicity_long<-acs_urbanicity_long[,c("geoid", "state_fips", "state_name",
 
 not_states_name<-c("Puerto Rico", "District of Columbia", "District of Columbia -- Urban")
 acs_urbanicity_long<- acs_urbanicity_long[(acs_urbanicity_long$state_name %in% not_states_name==F),]
+state_names<- data.frame(do.call('rbind', (strsplit(acs_urbanicity_long$state_name, ' --', fixed = T))))
+acs_urbanicity_long$state_name<- state_names$X1
 
 ###ACS MERGE###
-
-acs_long<-join(acs_income_long, acs_edu
+acs_long<-merge(acs_income_long, acs_education_long, by = c("state_fips", "year"))
+acs_long<-merge(acs_long, acs_nativity_long, by = c("state_fips", "year"))
+acs_long<-merge(acs_long, acs_urbanicity_long, by = c("state_fips", "year"))
+acs_long<-acs_long[,c(-6,-7,-9,-10,-20,-21)]
+acs_long<-acs_long%>%
+  rename(geoid=geoid.x, state_name=state_name.x)
+acs_long[,c(5:16)]<- sapply(acs_long[,c(5:16)], as.numeric)
 
 ###BLS###
 apiDF <- function(data){
