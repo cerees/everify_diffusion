@@ -72,10 +72,10 @@ acs_nativity_09_key<-data.frame(cbind(c(names(acs_09_1yr_s0501)), c(acs_09_1yr_s
 #HC05_EST_VC01==non_citizen_pop; HC01_EST_VC18==blk_pop;
 #HC01_EST_VC24==hisp_pop; HC03_EST_VC24==hisp_for_pop;
 #HC05_EST_VC24==hisp_non_citizen_pop
-acs_nativity_10_key<-data.frame(cbind(c(names(acs_10_1yr_s0501)), c(acs_nativity_10_1yr_s0501[1,])))
-acs_nativity_11_key<-data.frame(cbind(c(names(acs_nativity_11_1yr_s0501)), c(acs_nativity_11_1yr_s0501[1,])))
-acs_nativity_12_key<-data.frame(cbind(c(names(acs_nativity_12_1yr_s0501)), c(acs_nativity_12_1yr_s0501[1,])))
-acs_nativity_nativity_13_key<-data.frame(cbind(c(names(acs_nativity_13_1yr_s0501)), c(acs_nativity_13_1yr_s0501[1,])))
+acs_nativity_10_key<-data.frame(cbind(c(names(acs_10_1yr_s0501)), c(acs_10_1yr_s0501[1,])))
+acs_nativity_11_key<-data.frame(cbind(c(names(acs_11_1yr_s0501)), c(acs_11_1yr_s0501[1,])))
+acs_nativity_12_key<-data.frame(cbind(c(names(acs_12_1yr_s0501)), c(acs_12_1yr_s0501[1,])))
+acs_nativity_13_key<-data.frame(cbind(c(names(acs_13_1yr_s0501)), c(acs_13_1yr_s0501[1,])))
 # For 10, 11 12, & 13
 #HC01_EST_VC01==totpop; HC03_EST_VC01==for_pop; 
 #HC05_EST_VC01==non_citizen_pop; "HC01_EST_VC18==blk_pop;
@@ -573,7 +573,6 @@ for(c in 1:length(bls_codes$code)){
   df$state<-paste0(as.character(bls_codes$state[c]))
   assign(paste0(bls_codes$state[c], "_unemp"), df)
 }
-rm('_unemp')
 bls_names<-ls(pattern="*_unemp")
 bls_long<-ldply(bls_names, get)
 bls_long<-bls_long[bls_long$periodName=="Annual",]

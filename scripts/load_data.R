@@ -50,7 +50,7 @@ acs_education_files<-lapply(acs_education_file_paths, read.csv)
 #INCOME
 acs_income_file_paths<-c(list.files(path="data/originals/acs_data/income_1year", pattern="*ann.csv", full=T), 
                              list.files(path="data/originals/acs_data/income_3year", pattern="*ann.csv", full=T),
-                         list.files(path="data/originals/acs_data/income_3year", pattern="*ann.csv", full=T))
+                         list.files(path="data/originals/acs_data/income_5year", pattern="*ann.csv", full=T))
 acs_income_files<-lapply(acs_income_file_paths, read.csv)
 
 #Urbanicity
