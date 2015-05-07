@@ -1,0 +1,51 @@
+state_name,tot_senate,tot_house,senate_elections,house_elections,year
+Alabama,35,105,35,105,2010
+Alaska,20,40,10,40,2010
+Arizona,30,60,30,60,2010
+Arkansas,35,100,17,100,2010
+California,40,80,20,80,2010
+Colorado,35,65,18,65,2010
+Connecticut,36,151,36,151,2010
+Delaware,21,41,11,41,2010
+Florida,40,120,20,120,2010
+Georgia,56,180,56,180,2010
+Hawaii,25,51,13,51,2010
+Idaho,35,70,35,70,2010
+Illinois,59 (a),118,20,118,2010
+Indiana,50,100,25,100,2010
+Iowa,50,100,25 (c),100,2010
+Kansas,40,125,. . .,125,2010
+Kentucky,38,100,19,100,2010
+Louisiana,39,105,. . .,. . .,2010
+Maine,35,151,35,151,2010
+Maryland,47,141,47,141,2010
+Massachusetts,40,160,40,160,2010
+Michigan,38,110,38,110,2010
+Minnesota,67,134,67,134,2010
+Mississippi,52,122,. . .,. . .,2010
+Missouri,34,163,17,163,2010
+Montana,50,100,25,100,2010
+Nebraska,49,U,24,U,2010
+Nevada,21,42,11,42,2010
+New Hampshire,24,400,24,400,2010
+New Jersey,40,80,. . .,. . .,2010
+New Mexico,42,70,. . .,70,2010
+New York,62,150,62,150,2010
+North Carolina,50,120,50,120,2010
+North Dakota,47,94,24 (c),47 (c),2010
+Ohio,33,99,17,99,2010
+Oklahoma,48,101,24,101,2010
+Oregon,30,60,15,60,2010
+Pennsylvania,50,203,25 (b),203,2010
+Rhode Island,38,75,38,75,2010
+South Carolina,46,124,. . .,124,2010
+South Dakota,35,70,35,70,2010
+Tennessee,33,99,17,99,2010
+Texas,31,150,16,150,2010
+Utah,29,75,14,75,2010
+Vermont,30,150,30,150,2010
+Virginia,40,100,. . .,. . .,2010
+Washington ,49,98,24,98,2010
+West Virginia,34,100,17,100,2010
+Wisconsin,33,99,17,99,2010
+Wyoming,30,60,15,60,2010

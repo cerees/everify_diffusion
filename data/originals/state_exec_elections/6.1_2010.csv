@@ -1,0 +1,51 @@
+state_name,elections,year
+Alabama,"G,LG,AG,AR,A,SS,T ",2010
+Alaska,"G,LG",2010
+Arizona,"G,AG,SS,SP,T (a)",2010
+Arkansas,"G,LG,AG,A,SS,T (b)",2010
+California,"G,LG,AG,C,CI,SS,SP,T (c)",2010
+Colorado ,"G,LG,AG,SS,T ",2010
+Connecticut,"G,LG,AG,C,SS,T",2010
+Delaware,"AG,A,T",2010
+Florida ,"G,LG,AG,AR,CFO ",2010
+Georgia,"G,LG,AG,AR,CI,SS,SP (d)",2010
+Hawaii,"G,LG",2010
+Idaho,"G,LG,AG,C,SS,SP,T",2010
+Illinois,"G,LG,AG,C,SS,T",2010
+Indiana,"A,SS,T",2010
+Iowa,"G,LG,AG,AR,A,SS,T",2010
+Kansas,"G,LG,AG,CI,SS,T",2010
+Kentucky,. . .,2010
+Louisiana ,. . .,2010
+Maine (e),G,2010
+Maryland,"G,LG,AG,C",2010
+Massachusetts,"G,LG,AG,A,SS,T",2010
+Michigan,"G,LG,AG,SS (f)",2010
+Minnesota ,"G,LG,AG,A,SS",2010
+Mississippi,. . .,2010
+Missouri,A,2010
+Montana,. . .,2010
+Nebraska ,"G,LG,AG,A,SS,T ",2010
+Nevada,"G,LG,AG,C,SS,T",2010
+New Hampshire,G,2010
+New Jersey,. . .,2010
+New Mexico ,"G,LG,AG,A,SS,T (g)",2010
+New York,"G,LG,AG,C",2010
+North Carolina,. . .,2010
+North Dakota ,"AG,AR,SS (i)(j)",2010
+Ohio,"G,LG,AG,A,SS,T ",2010
+Oklahoma,"G,LG,AG,A,CI,SP,T (k)",2010
+Oregon,"G,SP (l)",2010
+Pennsylvania,"G,LG",2010
+Rhode Island,"G,LG,AG,SS,T",2010
+South Carolina,"G,LG,AG,AR,C,SS,SP,T (m)",2010
+South Dakota ,"G,LG,AG,A,SS,SP,T (n)",2010
+Tennessee ,G,2010
+Texas ,"G,LG,AG,AR,C (o)",2010
+Utah,G (q),2010
+Vermont,"G,LG,AG,A,SS,T",2010
+Virginia,. . .,2010
+Washington,. . .,2010
+West Virginia,. . .,2010
+Wisconsin,"G,LG,AG,SS,T",2010
+Wyoming,"G,A,SS,SP,T",2010

@@ -20,7 +20,7 @@ source("scripts/load_packages.R")
 everify<-read.csv("data/originals/everify_adoption.csv")
 names(everify)<- tolower(names(everify))
 
-###ACS DEMOGRAPHIC DATA###
+###ACS DATA###
 #Retrieved from the ACS
 #demographic data
 #get census api here: http://api.census.gov/data/key_signup.html
@@ -31,10 +31,31 @@ names(everify)<- tolower(names(everify))
 #create geo.set, use acs.lookup() and geo.make()
 #us.states.geo<-geo.make(state = "*")
 #tot_pop<-acs.fetch(endyear=2011, span=5, geography=us.states.geo, table.number="B01003")
-
 #Instead table number S0501 for years 2006-2013 retrieved from factfinder
-acs_file_paths<-list.files(path="data/originals/acs_data", pattern='*.csv', full=T)
-acs_files<-lapply(acs_file_paths, read.csv)
+
+#NATIVITY
+acs_nativity_file_paths<-list.files(path="data/originals/acs_data/nativity_and_race", pattern='*.csv', full=T)
+acs_nativity_files<-lapply(acs_nativity_file_paths, read.csv)
+
+#URBANICITY
+acs_urbanicity_file_paths<-c(list.files(path="data/originals/acs_data/urbanicity_2000", pattern="*ann.csv", full=T), 
+                             list.files(path="data/originals/acs_data/urbanicity_2010", pattern="*ann.csv", full=T))
+acs_urbanicity_files<-lapply(acs_urbanicity_file_paths, read.csv)
+#EDUCAITON
+acs_education_file_paths<-c(list.files(path="data/originals/acs_data/education_1year", pattern="*ann.csv", full=T), 
+                             list.files(path="data/originals/acs_data/education_3year", pattern="*ann.csv", full=T),
+                            list.files(path="data/originals/acs_data/education_5year", pattern="*ann.csv", full=T))
+acs_education_files<-lapply(acs_education_file_paths, read.csv)
+
+#INCOME
+acs_income_file_paths<-c(list.files(path="data/originals/acs_data/income_1year", pattern="*ann.csv", full=T), 
+                             list.files(path="data/originals/acs_data/income_3year", pattern="*ann.csv", full=T),
+                         list.files(path="data/originals/acs_data/income_3year", pattern="*ann.csv", full=T))
+acs_income_files<-lapply(acs_income_file_paths, read.csv)
+
+#Urbanicity
+acs_urbanicity_file_paths<-list.files(path="data/originals/acs_data/urbanicity", pattern='*ann.csv', full=T)
+acs_urbanicity_files<-lapply(acs_urbanicity_file_paths, read.csv)
 
 ###BLS ECONOMIC DATA###
 #Retrieved from the BLS
@@ -81,6 +102,20 @@ gov_elections_files<-lapply(gov_elections_file_paths, read.csv)
 gov_party_file_paths<-list.files(path="data/originals/governors", pattern='*.csv', full=T)
 gov_party_files<-lapply(gov_party_file_paths, read.csv)
 
+#Citizen Ideaology
+citizen_ideaology<-read.csv("data/originals/citizen_ideaology.csv")
+
+#Campaign Contributions 
+campaign_contributions<-read.csv("data/originals/campaign_contributions.csv")
+
+#State Legs Election Frequencies
+state_leg_elections_file_paths<-list.files(path="data/originals/state_legs_elections/", pattern='*.csv', full=T)
+state_leg_elections_files<-lapply(state_leg_elections_file_paths, read.csv)
+
+#Executive Bracnch Election Frequencies
+state_exec_elections_file_paths<-list.files(path="data/originals/state_exec_elections/", pattern='*.csv', full=T)
+state_exec_elections_files<-lapply(state_exec_elections_file_paths, read.csv)
+
 ###SPATIAL###
 ###retreived from ESRI###
 us_states<-readOGR("data/originals/us_states", "states")
@@ -88,7 +123,9 @@ us_states<-readOGR("data/originals/us_states", "states")
 ###################
 ###SAVE OUT DATA###
 ###################
-save(everify, acs_files, bls_files, bls_codes, state_legs,
-     pres_files, fed_files, gov_party_files,
-     gov_elections_files, us_states,
+save(everify, acs_nativity_files, bls_files, bls_codes, state_legs,
+     pres_files, fed_files, gov_party_files, acs_urbanicity_files,
+     gov_elections_files, us_states, campaign_contributions,
+     citizen_ideaology, acs_education_files, acs_income_files,
+     acs_urbanicity_files, state_exec_elections_files, state_leg_elections_files,
      file="data/loaded_dfs.Rdata")

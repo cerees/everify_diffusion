@@ -1,0 +1,51 @@
+state_name,tot_senate,tot_house,senate_elections,house_elections,year
+Alabama,35,105,35,105,2014
+Alaska,20,40,10,40,2014
+Arizona,30,60,30,60,2014
+Arkansas,35,100,18,100,2014
+California,40,80,20 (b),80,2014
+Colorado,35,65,18,65,2014
+Connecticut,36,151,36,151,2014
+Delaware,21,41,10,41,2014
+Florida,40,120,20 (a),120,2014
+Georgia,56,180,56,180,2014
+Hawaii ,25,51,13 (c),51,2014
+Idaho,35,70,35,70,2014
+Illinois,59,118,19 (d),118,2014
+Indiana,50,100,25,100,2014
+Iowa,50,100,25 (b),100,2014
+Kansas,40,125,40,125,2014
+Kentucky,38,100,19 (a),100,2014
+Louisiana,39,105,…,…,2014
+Maine,35,151 (e),35,151,2014
+Maryland,47,141,47,141,2014
+Massachusetts,40,160,40,160,2014
+Michigan,38,110,38,110,2014
+Minnesota,67,134,67,134,2014
+Mississippi,52,122,…,…,2014
+Missouri,34,163,17 (a),163,2014
+Montana,50,100,25,100,2014
+Nebraska,49,U,25 (a)(f),U,2014
+Nevada,21,42,11,42,2014
+New Hampshire,24,400,24,400,2014
+New Jersey,40,80,…,…,2014
+New Mexico,42,70,…,70,2014
+New York,63,150,63,150,2014
+North Carolina,50,120,50,120,2014
+North Dakota,47,94,24 (b),47 (b),2014
+Ohio,33,99,17 (b),99,2014
+Oklahoma,48,101,25 (a)(g),101,2014
+Oregon,30,60,15,60,2014
+Pennsylvania,50,203,25 (a),203,2014
+Rhode Island,38,75,38,75,2014
+South Carolina,46,124,…,124,2014
+South Dakota,35,70,35,70,2014
+Tennessee,33,99,17 (b),99,2014
+Texas,31,150,16,150,2014
+Utah,29,75,14,75,2014
+Vermont,30,150,30,150,2014
+Virginia,40,100,…,…,2014
+Washington,49,98,24 (b),98,2014
+West Virginia,34,100,17,100,2014
+Wisconsin,33,99,17 (b),99,2014
+Wyoming,30,60,15 (b),60,2014

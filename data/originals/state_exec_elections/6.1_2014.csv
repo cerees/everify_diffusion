@@ -1,0 +1,51 @@
+state_name,elections,year
+Alabama,"G,LG,AG,AR,A,SS,T ",2014
+Alaska,"G,LG",2014
+Arizona,"G,AG,SS,SP,T (a)",2014
+Arkansas,"G,LG,AG,A,SS,T (b)",2014
+California,"G,LG,AG,C,CI,SS,SP,T (c)",2014
+Colorado ,"G,LG,AG,SS,T ",2014
+Connecticut,"G,LG,AG,C,SS,T",2014
+Delaware,"AG,A,T",2014
+Florida ,"G,LG,AG,AR,CFO ",2014
+Georgia,"G,LG,AG,AR,CI,SS,SP (d)",2014
+Hawaii,"G,LG",2014
+Idaho,"G,LG,AG,C,SS,SP,T",2014
+Illinois,"G,LG,AG,C,SS,T",2014
+Indiana,"A,SS,T",2014
+Iowa,"G,LG,AG,AR,A,SS,T",2014
+Kansas,"G,LG,AG,CI,SS,T",2014
+Kentucky,. . .,2014
+Louisiana ,. . .,2014
+Maine (e),G,2014
+Maryland,"G,LG,AG,C",2014
+Massachusetts,"G,LG,AG,A,SS,T",2014
+Michigan,"G,LG,AG,SS (f)",2014
+Minnesota ,"G,LG,AG,A,SS",2014
+Mississippi,. . .,2014
+Missouri,A,2014
+Montana,. . .,2014
+Nebraska ,"G,LG,AG,A,SS,T ",2014
+Nevada,"G,LG,AG,C,SS,T",2014
+New Hampshire,G,2014
+New Jersey,. . .,2014
+New Mexico ,"G,LG,AG,A,SS,T (g)",2014
+New York,"G,LG,AG,C",2014
+North Carolina,. . .,2014
+North Dakota ,"AG,AR,SS (i)(j)",2014
+Ohio,"G,LG,AG,A,SS,T ",2014
+Oklahoma,"G,LG,AG,A,CI,SP,T (k)",2014
+Oregon,"G,SP ",2014
+Pennsylvania,"G,LG",2014
+Rhode Island,"G,LG,AG,SS,T",2014
+South Carolina,"G,LG,AG,AR,C,SS,SP,T (m)",2014
+South Dakota ,"G,LG,AG,A,SS,SP,T (n)",2014
+Tennessee ,G,2014
+Texas ,"G,LG,AG,AR,C (o)",2014
+Utah,. . .,2014
+Vermont,"G,LG,AG,A,SS,T",2014
+Virginia,. . .,2014
+Washington,. . .,2014
+West Virginia,. . .,2014
+Wisconsin,"G,LG,AG,SS,T",2014
+Wyoming,"G,A,SS,SP,T",2014
