@@ -596,7 +596,15 @@ fed_elections_long<- fed_elections_long[(fed_elections_long$state_abb %in% not_s
 
 ###GUBERNATORIAL ELECTIONS###
 gov_elections_long<-do.call(smartbind, gov_elections_files)
-gsub()
+trim_parantheses<- function(x) gsub('\\(.\\)', '', x)
+trim_trailing <- function (x) gsub("\\s+$", "", x)
+trim_comma<- function (x) gsub(",", "", x)
+gov_elections_long[]<-as.data.frame(sapply(gov_elections_long, trim_parantheses))
+gov_elections_long[]<-as.data.frame(sapply(gov_elections_long, trim_trailing))
+gov_elections_long[]<-as.data.frame(sapply(gov_elections_long, trim_comma))
+gov_elections_long<-unique(gov_elections_long)
+gov_elections_long$states<-gsub(' \\(.\\)', '', gov_elections_long$states)
+gov_elections_long$states<-gsub("\\s+$", "", gov_elections_long$states)
 
 ###GUBERNATORIAL PARTY AFFILIATION###
 for (i in seq(years)){
@@ -606,9 +614,10 @@ gov_party_long<-do.call(smartbind, gov_party_files)
 gov_party_long$rep_gov[gov_party_long$party=="R"]<-1
 gov_party_long$rep_gov[gov_party_long$party!="R"]<-0
 
-#######################
-###MISSING VARIABLES###
-#######################
+###EXECUTIVE ELECTION FREQUENCY###
+state_exec_elections_long<-do.call(smartbind, state_exec_elections_files)
+
+###STATE LEGISLATURE ELECTIONS###
 state_legs[27,2:153]<-NA
 names(state_legs)<- gsub("oth", "other", names(state_legs))
 names(state_legs)<- gsub("h_", "hz", names(state_legs))
@@ -637,15 +646,12 @@ state_legs_long$legs_control[(state_legs_long$lower_house=="Split" | state_legs_
 state_legs_long$rep_legs[state_legs_long$legs_control=="R"]<-1
 state_legs_long$rep_legs[state_legs_long$legs_control!="R"]<-0
 
-#Nebraska
-#Create Frequency Time Series
-freq_adopt_years<-as.data.frame(table(everify_wide$adopt_year))
-names(freq_adopt_years)<-(c("year", "freq"))
-freq_adopt_years$year<-as.numeric(as.character(freq_adopt_years$year))
-freq_adopt_years[9,]<-freq_adopt_years[8,]
-freq_adopt_years[8,]<-rbind(2013, 0)
-freq_adopt_years$cumsum<-cumsum(freq_adopt_years$freq)
-freq_adopt_years$hazard<-(50-freq_adopt_years$cumsum)
+###STATE LEGISLATURE ELECTION FREQUENCY###
+state_legs_elections_long<-do.call(smartbind, state_legs_elections_files)
+
+
+
+
 
 #Create Time Series
 freq_adopt_ts<-ts(freq_adopt_years$freq, 

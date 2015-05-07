@@ -109,8 +109,8 @@ citizen_ideaology<-read.csv("data/originals/citizen_ideaology.csv")
 campaign_contributions<-read.csv("data/originals/campaign_contributions.csv")
 
 #State Legs Election Frequencies
-state_leg_elections_file_paths<-list.files(path="data/originals/state_legs_elections/", pattern='*.csv', full=T)
-state_leg_elections_files<-lapply(state_leg_elections_file_paths, read.csv)
+state_legs_elections_file_paths<-list.files(path="data/originals/state_legs_elections/", pattern='*.csv', full=T)
+state_legs_elections_files<-lapply(state_legs_elections_file_paths, read.csv)
 
 #Executive Bracnch Election Frequencies
 state_exec_elections_file_paths<-list.files(path="data/originals/state_exec_elections/", pattern='*.csv', full=T)
