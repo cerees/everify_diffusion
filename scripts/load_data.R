@@ -127,5 +127,5 @@ save(everify, acs_nativity_files, bls_files, bls_codes, state_legs,
      pres_files, fed_files, gov_party_files, acs_urbanicity_files,
      gov_elections_files, us_states, campaign_contributions,
      citizen_ideaology, acs_education_files, acs_income_files,
-     acs_urbanicity_files, state_exec_elections_files, state_leg_elections_files,
+     acs_urbanicity_files, state_exec_elections_files, state_legs_elections_files,
      file="data/loaded_dfs.Rdata")
