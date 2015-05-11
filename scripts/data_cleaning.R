@@ -46,7 +46,6 @@ everify_long<-reshape(everify_wide,
         new.row.names = (1:900))
 names(everify_long)[names(everify_long) == 'state'] <- 'state_abb'
 
-
 ###ACS NATIVITY###
 acs_nativity_file_paths<-list.files(path="data/originals/acs_data/nativity_and_race", pattern='*.csv', full=T)
 acs_nativity_file_names<-lapply(acs_nativity_file_paths, function(x){
@@ -649,8 +648,24 @@ state_legs_long$rep_legs[state_legs_long$legs_control!="R"]<-0
 ###STATE LEGISLATURE ELECTION FREQUENCY###
 state_legs_elections_long<-do.call(smartbind, state_legs_elections_files)
 
+###CAMPAIGN CONTRIBUTIONS###
+campaign_contributions_long<- campaign_contributions%>%
+  select(state_abb=Election_State, year=Election_Year, party=General_Party, office=General_Office, sector=Broad_Sector, donations=X._of_Records, donation_ammount=Total_.)
+campaign_contributions_long$state_legs_election<-0
+campaign_contributions_long$state_legs_election[(campaign_contributions_long$office=="State Senate"|
+                                                  campaign_contributions_long$office=="State House/Assembly")]<-1
+campaign_contributions_long<- campaign_contributions_long%>%
+  group_by(state_abb, year, sector)%>%
+  summarise(donation_ammount=sum(donation_ammount))%>%
+  spread(sector, donation_ammount)%>%
+  rename(agriculture_donations=Agriculture, construction_donations=Construction)
 
-
+###CITIZEN IDEAOLOGY###
+citizen_ideaology_long<- citizen_ideaology%>%
+  filter(year>2005)%>%
+  rename(state_name=statename, state_fips=state, citizen_idea=citi6013, 
+         state_idea_adacope=inst6013_adacope, 
+         state_idea_nominal=inst6014_nom)
 
 
 #Create Time Series
