@@ -116,6 +116,9 @@ state_legs_elections_files<-lapply(state_legs_elections_file_paths, read.csv)
 state_exec_elections_file_paths<-list.files(path="data/originals/state_exec_elections/", pattern='*.csv', full=T)
 state_exec_elections_files<-lapply(state_exec_elections_file_paths, read.csv)
 
+###STATE NAMES###
+state_names<- read.csv(file="data/originals/state_names_table/state_table.csv")
+
 ###SPATIAL###
 ###retreived from ESRI###
 us_states<-readOGR("data/originals/us_states", "states")
@@ -128,4 +131,5 @@ save(everify, acs_nativity_files, bls_files, bls_codes, state_legs,
      gov_elections_files, us_states, campaign_contributions,
      citizen_ideaology, acs_education_files, acs_income_files,
      acs_urbanicity_files, state_exec_elections_files, state_legs_elections_files,
+     state_names,
      file="data/loaded_dfs.Rdata")
