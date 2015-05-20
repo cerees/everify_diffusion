@@ -745,7 +745,8 @@ state_names_long<- state_names%>%
   select(state_name=name, state_abb=abbreviation, state_fips=fips_state)
 rm(state_names, state_names_labels)
 ###STATES SHAPEFILE###
-us_states <- us_states[!us_states$STATE_NAME %in% c("District of Columbia", "Alaska", "Hawaii", "Nebraska"),]
+us_states <- us_states[!us_states$STATE_NAME %in% c("District of Columbia"),]
+#, "Alaska", "Hawaii", "Nebraska"),]
 #us_states<-us_states[us_states$STATE_NAME!="District of Columbia",]
 #us_states<-us_states[us_states$STATE_NAME!="Alaska",]
 #us_states<-us_states[us_states$STATE_NAME!="Hawaii",]
@@ -766,9 +767,12 @@ full_data_long<- merge(full_data_long, state_exec_elections_long, by=c("state_na
 full_data_long<- merge(full_data_long, state_legs_elections_long, by=c("state_name", "year"), all.x=T)
 full_data_long<- merge(full_data_long, state_legs_long, by=c("state_name", "year"), all.x=T)
 full_data_long<- merge(full_data_long, us_states@data[,c("STATE_NAME", "DRAWSEQ")], by.x="state_name", by.y="STATE_NAME", all.x=T)
+full_data_long$agriculture_donations<-(full_data_long$agriculture_donations/full_data_long$tot_state_elections)
+full_data_long$construction_donations<-(full_data_long$construction_donations/full_data_long$tot_state_elections)
 full_data_long<- arrange(full_data_long, state_name, year) #sort to match spatial weights matrix creation
 full_data_long<- na.locf(full_data_long) #Fill in missing data
-full_data_long<- filter(full_data_long, year>2005, year<2014, state_name!="Hawaii", state_name!="Alaska", state_name!="Nebraska") #Remove Hawaii and Alaska
+full_data_long<- filter(full_data_long, year>2005, year<2014)
+                        #, state_name!="Hawaii", state_name!="Alaska", state_name!="Nebraska") #Remove Hawaii and Alaska
 full_data_long<- rename(full_data_long, draw_seq=DRAWSEQ) #rename drawsequence
 full_data_long<- arrange(full_data_long, year, draw_seq) #sort to match spatial weights matrix creation
 
@@ -776,7 +780,8 @@ full_data_long<- arrange(full_data_long, year, draw_seq) #sort to match spatial 
 ###CREATE NEIGHBORHOODS###
 ##########################
 us_states_coords<- coordinates(us_states) #get coordinates for plotting
-us_states_nb<-poly2nb(us_states, queen = T, row.names=us_states@data$STATE_NAME) #queen based weights matrix
+#us_states_nb<-poly2nb(us_states, queen = T, row.names=us_states@data$STATE_NAME) #queen based weights matrix
+us_states_nb<-knn2nb(knearneigh(us_states_coords, k = 4), row.names = us_states@data$STATE_NAME) #k-near neighbors
 plot(us_states)
 plot(us_states_nb, us_states_coords, add=T) #plot neighbors
 us_states_lw<-nb2listw(us_states_nb, style="W") #create weights list
@@ -826,7 +831,7 @@ colnames(full_data_long_spatlag) <- names(full_data_long_numeric)
 for (y in sort(unique(full_data_long$year))){ #loop through, subset by year, create neighborlist, then create lagged variables
   print(y)
   us_states_ss<-filter(full_data_long, year==y)
-  nb<-poly2nb(us_states) # Create neighbour list
+  nb<-knn2nb(knearneigh(us_states_coords, k = 4)) # Create neighbour list
   weights<-nb2listw(nb,style="W") # Create weights (row based)
   us_states_ss <- us_states_ss[sapply(us_states_ss,is.numeric)]
   spatial_lag<-lapply(us_states_ss , function(x){

@@ -22,11 +22,13 @@ H4:  States with high levels of unemployment will be most likely to adopt E-Veri
 
 Partisan Politics
 
-Research in other areas of state level social control has focused on the unique role played by partisan politicians who seek to use issues like crime and immigration as possible wedge issues to curry favor with independent voters (Jacobs et al., 2007; Jacobs and Carmichael 2001; Jacobs, Carmichael, and Kent 2005; Jacobs and Kleban 2003; Keen and Jacobs 2009; Bahrehns et al. 2003).  
+Research in other areas of state level social control has focused on the unique role played by partisan politicians who seek to use issues like crime and immigration as possible wedge issues to curry favor with independent voters (Jacobs et al., 2007; Jacobs and Carmichael 2001; Jacobs, Carmichael, and Kent 2005; Jacobs and Kleban 2003; Keen and Jacobs 2009; Bahrehns et al. 2003).
 Of particular importance to the present analysis however, is the political history of immigration and its relation to party platforms.  The relevant literature (Ramakrishnan and Wong 2007) from analyses on city level adoption of restrictive and adaptive immigration ordinances has found that republican areas are more likely to adopt restrictive immigration ordinances and less likely to adopt adaptive ones.  These authors have speculated that large republican areas may indicate an ideological predisposition towards restrictive immigration policy and a dislike of immigration in general, but they also contend that these areas may be where immigration is the hottest issue and candidates may win votes by portraying themselves as more tough on immigration then their opponent.
-	Based on these insights from prior literature we would expect that:
+Based on these insights from prior literature we would expect that:
 H5:  States with republican legislatures will be most likely to adopt E-Verify requirements of employers.
 
 H6:  States with republican governors will be most likely to adopt E-Verify requirements of employers.
 
 H7:  States with republican legislatures will be more likely to adopt E-Verify requirement of employers when there is a democratic president in office.
+
+Spatial Arrangements

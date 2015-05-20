@@ -1,0 +1,168 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0016_ds146_2000_state'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2000
+Geographic level: State
+Dataset:          2000 Census: SF 1a - 100% Data [Areas Larger Than Block Groups]
+   NHGIS code:    2000_SF1a
+   NHGIS ID:      ds146
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Persons
+   Source code: NP001A
+   NHGIS code:  FL5
+ 
+2. Total Population by Race
+   Universe:    Persons
+   Source code: NP007A
+   NHGIS code:  FMR
+ 
+3. Population by Hispanic or Latino and Not Hispanic or Latino by Race
+   Universe:    Persons
+   Source code: NP008A
+   NHGIS code:  FMS
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGION:      Region Name
+        REGIONA:     Region Code
+        DIVISION:    Division Name
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUB:     County Subdivision Name
+        CTY_SUBA:    County Subdivision Code
+        PLACE:       Place Name
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        TRBL_CTA:    Tribal Census Tract Code
+        BLCK_GRPA:   Block Group Code
+        TRBL_BGA:    Tribal Block Group Code
+        C_CITYA:     Consolidated City Code
+        RES_ONLYA:   American Indian Reservation [excluding trust lands] Code
+        TRUSTA:      American Indian Reservation [trust lands only] Code
+        AIANHH:      American Indian Area/Alaska Native Area/Hawaiian Home Land Name
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        TRBL_SUBA:   Tribal Subdivision Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        MSA_CMSA:    Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area Name
+        MSA_CMSAA:   Metropolitan Statistical Area/Consolidated Metropolitan Statistical Area Code
+        PMSA:        Primary Metropolitan Statistical Area Name
+        PMSAA:       Primary Metropolitan Statistical Area Code
+        NECMA:       New England County Metropolitan Area Name
+        NECMAA:      New England County Metropolitan Area Code
+        URB_AREA:    Urban Area Name
+        URB_AREAA:   Urban Area Code
+        CD106A:      Congressional District (106th) Code
+        CD108A:      Congressional District (108th) Code
+        CD109A:      Congressional District (109th) Code
+        ZIP3A:       3-Digit Zip Code Tabulation Area Code
+        ZCTAA:       5-Digit Zip Code Tabulation Area Code
+        NAME:        Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+ 
+Breakdown:
+    Geographic Subarea: Total area (00)
+ 
+    Table 1:     Total Population
+    Universe:    Persons
+    Source code: NP001A
+    NHGIS code:  FL5
+        FL5001:      Total
+ 
+    Table 2:     Total Population by Race
+    Universe:    Persons
+    Source code: NP007A
+    NHGIS code:  FMR
+        FMR001:      White alone
+        FMR002:      Black or African American alone
+        FMR003:      American Indian and Alaska Native alone
+        FMR004:      Asian alone
+        FMR005:      Native Hawaiian and Other Pacific Islander alone
+        FMR006:      Some other race alone
+        FMR007:      Two or more races
+ 
+    Table 3:     Population by Hispanic or Latino and Not Hispanic or Latino by Race
+    Universe:    Persons
+    Source code: NP008A
+    NHGIS code:  FMS
+        FMS001:      Not Hispanic or Latino >> White alone
+        FMS002:      Not Hispanic or Latino >> Black or African American alone
+        FMS003:      Not Hispanic or Latino >> American Indian and Alaska Native alone
+        FMS004:      Not Hispanic or Latino >> Asian alone
+        FMS005:      Not Hispanic or Latino >> Native Hawaiian and Other Pacific Islander alone
+        FMS006:      Not Hispanic or Latino >> Some other race alone
+        FMS007:      Not Hispanic or Latino >> Two or more races
+        FMS008:      Hispanic or Latino >> White alone
+        FMS009:      Hispanic or Latino >> Black or African American alone
+        FMS010:      Hispanic or Latino >> American Indian and Alaska Native alone
+        FMS011:      Hispanic or Latino >> Asian alone
+        FMS012:      Hispanic or Latino >> Native Hawaiian and Other Pacific Islander alone
+        FMS013:      Hispanic or Latino >> Some other race alone
+        FMS014:      Hispanic or Latino >> Two or more races
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Minnesota Population Center. National Historical Geographic Information
+    System: Version 2.0. Minneapolis, MN: University of Minnesota 2011.
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* If possible, citations should also include the URL for the NHGIS site:
+
+    https://www.nhgis.org/
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu

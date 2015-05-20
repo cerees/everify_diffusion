@@ -26,7 +26,7 @@ pacman::p_load(plyr, dplyr, haven, tidyr,
                stringr, gtools, blsAPI,
                ggvis, zoo, survival,
                spdep, sp, rgdal, maptools,
-               igraph, McSpatial) 
+               igraph, McSpatial, glmulti) 
 
 ###FUNCTIONS###
 #clear labels from imported stata data

@@ -13,8 +13,28 @@ load("data/cleaned_dfs.Rdata")
 ########################################
 ###DISCRETE TIME EVENT HISTORY MODELS###
 ########################################
-full_data_long$time<- full_data_long$year-2005 
-full_data_long<- arrange(full_data_long, state_name, time, adoption)
+full_data_long$time<- full_data_long$year-2005  #create time variable
+full_data_long<- full_data_long%>%
+  arrange(state_name, time, adoption)%>%
+  select(-state_name)#order for even history analysis
+aspatial_model<-
+spatial_lag_model<-splogit(adoption~time+pct_blk+pct_hisp+pct_foreign+rep_gov+rep_state_legs,
+              wmat=us_states_spmatrix_years, data=full_data_long)
+additive_ilag_model<-glm(adoption~time+pct_blk+pct_hisp+pct_foreign+rep_gov+rep_state_legs+
+            lagged_adoption+lagged_pct_blk+lagged_pct_hisp+lagged_pct_foreign+
+            lagged_rep_gov+lagged_rep_state_legs, data=full_data_long, family = "binomial")
+multiplicative_ilag_model_black<-
+multiplicative_ilag_model_hisp
+multiplicative_ilag_model_foreign
+multiplicative_ilag_model_foreign
+multiplicative_ilag_model_foreign
+multiplicative_ilag_model_foreign
+
+summary(test)
+vif(test)
+test<-glmulti(adoption~time+pct_blk+pct_hisp+pct_foreign+rep_gov+rep_state_legs+
+                lagged_adoption+lagged_pct_blk+lagged_pct_hisp+lagged_pct_foreign+
+                lagged_rep_gov+lagged_rep_state_legs, data=full_data_long)
 nospace_event_history<-splogit(adoption~time, wmat=us_states_spmatrix_years, data = full_data_long)
 
 nospace_event_history<-
